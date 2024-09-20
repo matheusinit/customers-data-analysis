@@ -73,6 +73,6 @@ def load_data_from_excel_sheets(path: str) -> pd.DataFrame:
 def ingestion() -> pd.DataFrame:
     """Load data from the source and make data ingestion"""
     # Load data
-    data = load_data_from_excel_sheets('../data/dados_importacao.xlsx')
+    data = load_data_from_excel_sheets('../data/ingestion_data.xlsx')
 
     return data
