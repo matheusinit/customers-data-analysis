@@ -1,7 +1,7 @@
 services:
   database:
     image: postgres:15.7-bookworm
-    container_name: clients-storage
+    container_name: customers-storage
     environment:
       POSTGRES_DB: ${DATABASE_NAME}
       POSTGRES_USER: ${DATABASE_USER}

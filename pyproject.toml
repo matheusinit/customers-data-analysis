@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "clients-data-analysis"
+name = "customers-data-analysis"
 version = "0.1.0"
 description = ""
 authors = ["matheusinit <matheus.oliveira.s@protonmail.com>"]
